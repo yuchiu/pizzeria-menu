@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cheese Pizza",
+    "imgUrl": "https://i.imgur.com/htrMuT9.jpg",
+    "price": 12.99,
+    "calories": 1943,
+    "desc": "lacus vitae faucibus. Integer hendrerit maximus tellus. Maecenas non tellus enim. Maecenas sit amet ligula in ipsum tempus volutpat. "
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "imgUrl": "https://i.imgur.com/WOuGRd7.jpg",
+    "price": 15.99,
+    "calories": 2333,
+    "desc": "lacus vitae faucibus. Integer hendrerit maximus tellus. Maecenas non tellus enim. Maecenas sit amet ligula in ipsum tempus volutpat. "
+  },
+  {
+    "name": "Hawaiian Pizza",
+    "imgUrl": "https://i.imgur.com/nmSv2TA.jpg",
+    "price": 19.99,
+    "calories": 1684,
+    "desc": "lacus vitae faucibus. Integer hendrerit maximus tellus. Maecenas non tellus enim. Maecenas sit amet ligula in ipsum tempus volutpat. "
+  },
+  {
+    "name": "Double Mushroom Pizza",
+    "imgUrl": "https://imgur.com/0Qo76PF.jpg",
+    "price": 16.99,
+    "calories": 1622,
+    "desc": "lacus vitae faucibus. Integer hendrerit maximus tellus. Maecenas non tellus enim. Maecenas sit amet ligula in ipsum tempus volutpat. "
+  },
+  {
+    "name": "Grilled Veggie Pizza",
+    "imgUrl": "https://i.imgur.com/xghfcGi.jpg",
+    "price": 14.99,
+    "calories": 1350,
+    "desc": "lacus vitae faucibus. Integer hendrerit maximus tellus. Maecenas non tellus enim. Maecenas sit amet ligula in ipsum tempus volutpat. "
+  }
+]

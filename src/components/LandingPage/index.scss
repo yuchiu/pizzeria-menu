@@ -1,0 +1,59 @@
+@import "../../assets/css/elements.scss";
+@import "../../assets/css/vars.scss";
+
+.landing-page {
+  width: 100%;
+  margin: auto;
+}
+
+.landing-title {
+  text-align: center;
+  margin: 20px;
+}
+
+.pizza-wrapper {
+  @include list();
+  width: 100%;
+}
+.pizza {
+  width: 100%;
+  @include list();
+  align-items: center;
+  margin-bottom: 20px;
+  &__img-wrapper {
+    overflow: hidden;
+    &__thumbnail {
+      object-fit: cover;
+      width: 350px;
+      height: 300px;
+    }
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  &__details {
+    @include list(row);
+    &__item {
+      padding: 5px;
+    }
+    &__price {
+    }
+    &__calories {
+    }
+    &__btn {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (min-width: $MQ600Min) {
+  .pizza-wrapper {
+    width: 100%;
+    @include list(row);
+    justify-content: center;
+  }
+  .pizza {
+    width: 400px;
+  }
+}
