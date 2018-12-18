@@ -10,8 +10,8 @@
 - features
   - single page application
   - mobile first approach responsive design
-  - styling implemented only in CSS without any external styling libraries
-  - abstracted structures(List, Button) that are likely to be repetitive into reusable components
+  - entire layout implemented only in CSS without any use of external libraries
+  - abstracted repetitive components styling and structures into reusable modules
 
 ---
 

@@ -31,6 +31,6 @@ body {
 
 @media screen and (min-width: $MQ600Min) {
   .page-wrapper {
-    height: calc(100% - (#{$navbarHeightMQ600Min} + #{$footerHeight}));
+    min-height: calc(100% - (#{$navbarHeightMQ600Min} + #{$footerHeight}));
   }
 }

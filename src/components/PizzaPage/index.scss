@@ -1,0 +1,91 @@
+@import "../../assets/css/vars.scss";
+@import "../../assets/css/elements.scss";
+@import "../../assets/css/effects.scss";
+
+.pizza-page-wrapper {
+  width: 100%;
+  display: flex;
+}
+.pizza-panel {
+  @include list();
+  padding: 30px;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+}
+
+.pizza-panel-start {
+  &__img-wrapper {
+    overflow: hidden;
+    &__thumbnail {
+      @include cubicTransition();
+      object-fit: cover;
+      width: 350px;
+      height: 300px;
+      margin: auto;
+    }
+  }
+}
+.pizza-panel-end {
+  @include list();
+  align-items: center;
+  &__item {
+    padding: 10px;
+  }
+  &__name {
+    font-weight: 600;
+  }
+  &__details {
+    @include list("row");
+    &__item {
+      padding: 10px;
+    }
+    &__calories {
+    }
+    &__price {
+    }
+  }
+  &__desc {
+  }
+  &__btn {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: $MQ600Min) {
+  .pizza-panel {
+    width: 60%;
+  }
+  .pizza-panel-start {
+    &__img-wrapper {
+      &__thumbnail {
+        width: 500px;
+        height: 350px;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $MQ1200Min) {
+  .pizza-panel {
+    @include list(row);
+    width: 90%;
+    justify-content: space-around;
+  }
+  .pizza-panel-start {
+    &__img-wrapper {
+      &__thumbnail {
+        width: 600px;
+        height: 500px;
+      }
+    }
+  }
+  .pizza-panel-end {
+    @include list();
+    align-items: flex-start;
+
+    width: 40%;
+  }
+}

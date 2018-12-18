@@ -1,5 +1,6 @@
 @import "../../assets/css/elements.scss";
 @import "../../assets/css/vars.scss";
+@import "../../assets/css/effects.scss";
 
 .landing-page {
   width: 100%;
@@ -8,7 +9,9 @@
 
 .landing-title {
   text-align: center;
-  margin: 20px;
+  font-weight: 600;
+  font-size: 1.4em;
+  margin: 30px;
 }
 
 .pizza-wrapper {
@@ -16,16 +19,18 @@
   width: 100%;
 }
 .pizza {
-  width: 100%;
   @include list();
   align-items: center;
+  margin: auto;
   margin-bottom: 20px;
   &__img-wrapper {
     overflow: hidden;
     &__thumbnail {
+      @include cubicTransition();
       object-fit: cover;
       width: 350px;
       height: 300px;
+      margin: auto;
     }
   }
   &__name {
@@ -55,5 +60,17 @@
   }
   .pizza {
     width: 400px;
+  }
+}
+
+@media screen and (min-width: $MQ1200Min) {
+  .pizza {
+    width: 500px;
+    &__img-wrapper {
+      &__thumbnail {
+        width: 450px;
+        height: 350px;
+      }
+    }
   }
 }
