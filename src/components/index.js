@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import "./index.scss";
 import { Footer, Navbar } from "./common";
@@ -9,7 +9,7 @@ import NotFoundPage from "./NotFoundPage";
 import PizzaPage from "./PizzaPage";
 
 const Router = () => (
-  <BrowserRouter>
+  <HashRouter>
     <React.Fragment>
       <Navbar />
       <Switch>
@@ -20,7 +20,7 @@ const Router = () => (
       </Switch>
       <Footer />
     </React.Fragment>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default Router;

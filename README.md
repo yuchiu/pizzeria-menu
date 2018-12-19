@@ -1,5 +1,7 @@
 # pizzeria-menu
 
+Live Demo: [Link](http://pizzeria-menu.surge.sh)
+
 - project setup
   - bootstrapped project with Create React App
   - ejected Create React App to integrate SCSS
@@ -7,11 +9,11 @@
   - eslint
   - prettier code formatter
   - react-router-dom
-- features
+- implementation highlights
   - single page application
   - mobile first approach responsive design
   - entire layout implemented only in CSS without any use of external libraries
-  - abstracted repetitive components styling and structures into reusable modules
+  - abstracted repetitive component structures and stylings into reusable modules
 
 ---
 
